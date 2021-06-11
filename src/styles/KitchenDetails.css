@@ -1,0 +1,72 @@
+#KitchenDetails {
+  margin-left: calc(9rem + 3px);
+}
+#KitchenDetails > div:first-child {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#KitchenDetails > .profile-picture-edit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+#KitchenDetails > .profile-picture-edit > button {
+  outline-style: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+#KitchenDetails > .profile-picture-edit > .kitchen-picture {
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+}
+#KitchenDetails > .profile-picture-edit > .kitchen-picture input {
+  display: none;
+}
+#KitchenDetails > .profile-picture-edit > .kitchen-picture > label {
+  height: 100%;
+  width: 100%;
+}
+#KitchenDetails > .profile-picture-edit > .kitchen-picture > label > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+#KitchenDetails > .profile-picture-edit > .kitchen-picture > div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translate(50%, -50%);
+  background: #e52e40;
+}
+#KitchenDetails > .profile-picture-edit .kitchen-details {
+  background: #e52e40;
+  color: #fff;
+}
+#KitchenDetails > .profile-picture-edit .menu-details,
+#KitchenDetails > .profile-picture-edit .ratings {
+  background: #fff;
+  color: #e52e40;
+  border: 3px solid #e52e40;
+}
+
+.edit-details {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.edit-details input {
+  margin: 0.4rem;
+  padding: 0.3rem;
+  width: 75%;
+  font-size: 1rem;
+  border: 3px solid #c3cfd9;
+}
+
+/*# sourceMappingURL=KitchenDetails.css.map */

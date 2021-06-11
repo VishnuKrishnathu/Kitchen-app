@@ -1,0 +1,38 @@
+#NavBar {
+  margin-left: calc(9rem + 3px);
+  height: 17vh;
+  border-bottom: 3px solid #dfe6ed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#NavBar > .page-display {
+  font-size: 1.6rem;
+  padding: 0.3rem 2rem 0.3rem 4rem;
+}
+#NavBar > .username {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#NavBar > .username span:last-child {
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  width: 7vh;
+  height: 7vh;
+  background: #dfe6ed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#NavBar > .username span:last-child svg {
+  width: 50%;
+  height: auto;
+}
+
+/*# sourceMappingURL=NavBar.css.map */
